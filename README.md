@@ -19,13 +19,6 @@ The Simon game is implemented in RISC-V assembly with a focus on efficient memor
 - **I/O Handling**: Direct hardware interaction with the LED matrix (output) and D-pad controller (input).
 - **Game Logic**: Implements the classic Simon gameplay with sequence generation, display, and validation.
 
-### Color and Direction Mapping
-The game uses a 2x2 LED matrix with the following mapping:
-- **RED (0x0FF0000)** at position (0,0) - corresponds to UP on D-pad
-- **BLUE (0x0000FF)** at position (1,1) - corresponds to DOWN on D-pad
-- **YELLOW (0xFFFF00)** at position (0,1) - corresponds to LEFT on D-pad
-- **GREEN (0x00FF00)** at position (1,0) - corresponds to RIGHT on D-pad
-
 ### Key Components
 
 #### 1. Random Sequence Generation
